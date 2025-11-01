@@ -205,4 +205,6 @@ Use the Jupyter notebooks for hands-on experimentation:
 
 ## License
 
-This project is intended for educational and research purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The software is provided "as is", without warranty of any kind. Feel free to use, modify, and distribute this code for educational, research, or commercial purposes.
