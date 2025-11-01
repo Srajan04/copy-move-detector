@@ -1,0 +1,43 @@
+COPY-MOVE FORGERY DETECTION REPORT
+==================================================
+
+Report Generated: 2025-11-01T10:27:53.784150
+
+DATASET INFORMATION
+--------------------
+Total Images: 220
+Total Processing Time: 15.75 seconds
+Average Processing Time: 0.07 seconds/image
+
+DETECTION PARAMETERS
+--------------------
+ratio_threshold: 0.8
+reproj_threshold: 3.0
+min_cluster_pts: 10
+contrast_threshold: 0.04
+edge_threshold: 10
+min_inlier_ratio: 0.1
+min_translation: 6.0
+min_region_area: 150.0
+max_overlap_ratio: 0.9
+model_type: homography
+
+PERFORMANCE METRICS
+--------------------
+Confusion Matrix:
+  True Positives:  78
+  False Positives: 4
+  True Negatives:  106
+  False Negatives: 32
+
+Precision: 0.951
+Recall:    0.709
+F1-Score:  0.812
+Accuracy:  0.836
+
+SUMMARY STATISTICS
+--------------------
+Total Images Processed: 220
+Actual Forgeries: 110
+Detected Forgeries: 82
+Detection Rate: 37.3%
